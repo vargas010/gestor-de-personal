@@ -7,11 +7,11 @@ const AdminLayout = ({ children }) => {
     <div className="flex min-h-screen bg-gray-50">
       <aside className="fixed top-0 left-0 h-screen w-64 bg-gradient-to-b from-blue-800 to-blue-600 text-white p-6 flex flex-col justify-between z-50 shadow-lg">
         <div>
-          <h2 className="text-2xl font-bold mb-8 text-center">Unosquare</h2>
+          <h2 className="text-2xl font-bold mb-8 text-center">Codesquare</h2>
           <nav className="space-y-4">
             <Link to="/" className="block hover:bg-blue-700 p-2 rounded transition">Dashboard</Link>
             <Link to="/accounts" className="block hover:bg-blue-700 p-2 rounded transition">Accounts</Link>
-            <Link to="/leads" className="block hover:bg-blue-700 p-2 rounded transition">Leads</Link>
+            <Link to="/leads" className="block hover:bg-blue-700 p-2 rounded transition">Participantes</Link>
             <Link to="/types" className="block hover:bg-blue-700 p-2 rounded transition">Tipos de Cuenta</Link>
             <Link to="/projects" className="block hover:bg-blue-700 p-2 rounded transition">Proyectos</Link>
           </nav>
